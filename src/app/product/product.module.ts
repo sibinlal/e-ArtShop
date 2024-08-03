@@ -5,9 +5,6 @@ import {MatCardModule} from '@angular/material/card';
 import { FlexModule } from '@angular/flex-layout';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
-
-
-
 @NgModule({
   declarations: [
     ProductListComponent
