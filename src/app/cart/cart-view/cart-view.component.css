@@ -1,0 +1,8 @@
+mat-divider {
+    border-color: rgba(0, 0, 0, 0.12); /* Set divider color */
+    margin: 10px 0; /* Add margin above and below the divider */
+  }
+
+.price {
+  font-weight: 800;
+}
