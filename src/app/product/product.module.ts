@@ -4,6 +4,11 @@ import { ProductListComponent } from './product-list/product-list.component';
 import {MatCardModule} from '@angular/material/card';
 import { FlexModule } from '@angular/flex-layout';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import {MatIconModule} from '@angular/material/icon';
+import {MatSnackBarModule} from '@angular/material/snack-bar'
+import {MatInputModule} from '@angular/material/input';
+import {MatSelectModule} from '@angular/material/select'
+
 
 @NgModule({
   declarations: [
@@ -13,7 +18,11 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     CommonModule,
     MatCardModule,
     FlexModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    MatIconModule,
+    MatSnackBarModule,
+    MatInputModule,
+    MatSelectModule
   ]
 })
 export class ProductModule { }

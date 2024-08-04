@@ -9,10 +9,12 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
 import { CartModule } from './cart/cart.module';
+import { PlayGroundComponent } from './play-ground/play-ground.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PlayGroundComponent
   ],
   imports: [
     BrowserModule,
