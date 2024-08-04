@@ -1,7 +1,7 @@
 .product-card {
-    max-width: 200px;
-    margin-bottom: 20px;
-  }
+  max-width: 200px;
+  margin-bottom: 20px;
+}
 
 mat-card:hover {
   transform: scale(1.05);
@@ -10,4 +10,23 @@ mat-card:hover {
 
 mat-card {
   transition: transform .2s;
+}
+
+.mat-card-content {
+  position: relative;
+  /* Enable positioning for child elements */
+}
+
+.add-to-cart-icon {
+  position: absolute;
+  right: 10px;
+  /* Set right position with desired spacing */
+  top: 90%;
+  /* Center icon vertically */
+  transform: translateY(-50%);
+  /* Adjust vertical position for different icon sizes */
+}
+
+.sort-dropdown {
+  margin-left: 760px;
 }
